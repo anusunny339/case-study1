@@ -1,9 +1,13 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url('/images/4.jpeg');
+    background:#191919;
 }
-
+.navbar{
+  background-color: greenyellow;
+    width:100%;
+    height:90px;
+}
 .navbar-nav{
     
     font-size: larger;
@@ -15,7 +19,10 @@ body{
     margin-left: 20px;
     margin-right: 12px;
     font-weight: bold;
-
+  
+}
+.nav-link{
+color: white;
 }
 .dropbtn {
     font-size: larger;
@@ -30,6 +37,14 @@ body{
     padding-left: 20px;
     margin-right: 15px;
   }
+  .dropbtn:hover{
+    color: blue;
+  }
+  #underline{
+    background-color: rgb(17, 17, 219);
+    width:100%;
+    height:10px;
+}
 
   table{
     /*background-color:greenyellow;*/

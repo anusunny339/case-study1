@@ -1,14 +1,17 @@
 function ajax(){
+    
     //creating xml object
     var xhttp= new XMLHttpRequest();
     //even listener
     xhttp.onreadystatechange= function()
     {
+       
         if(this.readyState==4&&this.status==200){
             var response=JSON.parse(this.responseText);
-         //  alert(response.length);
+          //  alert("a");
+          // alert(response.length);
            res1=response.length; 
-            var output="<h2>Todo List </h2><br><table class='table  table-striped table-hover active-animation'><tr><th> NO</th><th>TITLE</th></tr>"
+            var output="<h2>Todo List </h2><br><table class='table  table-striped table-hover active-animation'><tr><th> NO</th><th>TITLE</th><th></th></tr>"
             
             for(var i=0;i<res1;i++){
                 var id=i+1;
