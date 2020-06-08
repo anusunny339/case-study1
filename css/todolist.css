@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url('/images/4.jpeg');
+}
+
+.navbar-nav{
+    
+    font-size: larger;
+    font-style: normal;
+    width: 50%;
+    height: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 20px;
+    margin-right: 12px;
+    font-weight: bold;
+
+}
+.dropbtn {
+    font-size: larger;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0;
+    padding-right: 12px;
+    padding-left: 20px;
+    margin-right: 15px;
+  }
+
+  table{
+    /*background-color:greenyellow;*/
+    background-color: #191919;
+    /*width:100%;
+    height:100%;
+    margin-left: 50px;
+    margin-right: 150px;*/
+   
+  
+  }
+  table th{
+      color:blue;
+      font-size:x-large;
+      font-weight: bold;
+  }
+  
+  table td{
+      /*color:black;*/
+      color:white;
+      font-size:medium;
+      font-weight: bold;
+  }
+  .table-hover>tbody>tr:hover>td {
+    /*background-color: black;
+    color:#eeeeee;*/
+    background-color: white;
+    color:blue;
+    font-style: italic;
+  }
+
+  #demo{
+    margin-top: 3%;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 5%;
+    display: block; 
+  }
+
+  h2{
+    color:whitesmoke;
+    text-align: center;
+    margin-top: 3%;
+    background-color:#191919;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: bolder;
+    
+    
+}
