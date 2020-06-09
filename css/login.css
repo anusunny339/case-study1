@@ -61,24 +61,26 @@ body{
    display: block;
    margin:20px auto;
    text-align: center;
-   border:2px solid  greenyellow;
+   border:2px solid   rgb(17, 17, 219);
    padding: 14px 40px;
-   
+   width:50%;
+   margin-top: 2px;
    outline: none;
-   color:greenyellow;
+   color:rgb(17, 17, 219);
    border-radius: 24px;
    transition:0.25s ;
    cursor: pointer;
    font-weight: bolder;
    font-size:x-large;
    font-weight: 500;
+   
 }
 .box2  input[type="submit"]:hover{
   background:rgb(66, 66, 66);
   width: 280px;
 }
 h1{
-  color:rgb(2, 42, 68);
+  color:rgb(17, 17, 219);
 }
 #msg{
   position: absolute;
@@ -115,4 +117,28 @@ h1{
   top:300px;
   right:67px;
   visibility: hidden;
+}
+
+.box2 button[type="reset"]{
+  border:0;
+   background: none;
+   display: block;
+   margin:20px auto;
+   text-align: center;
+   border:2px solid  rgb(248, 233, 18);
+   padding: 14px 40px;
+   
+   outline: none;
+   color:rgb(238, 241, 46);
+   border-radius: 24px;
+   transition:0.25s ;
+   cursor: pointer;
+   font-weight: bolder;
+   font-size:x-large;
+   font-weight: 500;
+   padding-top: 13px;
+   margin-top: 5px;
+  
+   width: 40%;
+   
 }

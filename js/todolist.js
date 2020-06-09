@@ -21,7 +21,7 @@ function ajax(){
             
             if(completed==true){
               //  console.log(completed);
-                output+="<td><input type='checkbox' id='chk2' checked></td></tr>";
+                output+="<td><input type='checkbox' id='chk2' checked disabled></td></tr>";
             }
             else{
                 output+="<td><input type='checkbox' id='chk1' onchange='doalert(this);'></td></tr>";   
